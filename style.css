@@ -1,0 +1,28 @@
+/* .navbar-brand{
+    width: 100px;
+    height: 50px;
+}
+.navbar-brand img{
+    width: 100px;
+    height: 50px;
+} */
+
+/* home */
+.slide{
+    background: linear-gradient(#0000003e,#00000023), url(./assests/WhatsApp\ Image\ 2024-02-26\ at\ 15.49.41_0b2c523f.jpg);
+}
+/* .bg-cover{
+    background-position: center;
+    background-size: cover;
+background-repeat: no-repeat;
+} */
+
+/* about */
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+img{
+    width: 700px;
+    height: 500px;
+}
