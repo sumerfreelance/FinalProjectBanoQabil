@@ -6,14 +6,17 @@
     <title>Yummy Website</title>
    <link rel="stylesheet" href="./style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     
@@ -31,7 +34,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#carouselExample">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#about">About</a>
@@ -62,9 +65,9 @@
 
       <!-- home -->
 
-      <div id="carouselExample" class="carousel slide">
+      <div id="home" class="carousel slide">
         <div class="carousel-inner">
-          <div class="carousel-item text-center bg-cover  vh-100 active slide">
+          <div class="carousel-item text-center bg-cover  vh-100 active slide home">
             <div class="container h-100 d-flex align-items-center justify-content-center">
               <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -85,8 +88,10 @@
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h2 class="about_1">About Us</h2>
-          <p>Learn More <span>About Us</span></p>
+          <div class="text-center feedback-text">
+            <p class="light-gray">ABOUT US</p>
+            <h1 class="amatic-sc-regular">Learn More <span class="red-font">About Us</span></h1>
+          </div>
         </div>
         <div class="row gy-4">
           <div class="col-lg-7 position-relative about-img" style="background-image: url(./2.jpg) ;" data-aos="fade-up" data-aos-delay="150">
@@ -192,63 +197,282 @@
 
     <!-- Muhammad Izhan -->
     <!-- Menu -->
-    <!-- Events -->
+    <!-- Menu section started -->
 
-    <!-- Syed Umer Shah -->
-    <!-- Members -->
-    <div class="container my-5 Members" id="Members">
-      <div class="header-text mb-4">
-          <p class="text-center">Members</p>
-          <h2 class="text-center">Our <span class="text-danger">Proffesional</span></h2>
+    <section class="menu-section" id="menu">
+      <div class="text-center feedback-text">
+        <p class="light-gray">OUR MENU</p>
+        <h1 class="amatic-sc-regular">Check Our <span class="red-font">Yummy Menu</span></h1>
       </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                  <img src="./menu/menu-item-1.png" class="card-img-top menu-img" alt="...">
+                  <div class="card-body cb-1">
+                    <h3 class="card-title">Magnam Tiste</h3>
+                    <p class="card-text">Lorem, deren, trataro, filede, nerada</p>
+                    <b><h3 class="card-title text-danger">$5.95</h3></b>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="./menu/menu-item-2.png" class="card-img-top menu-img" alt="...">
+                  <div class="card-body cb-1">
+                    <h3 class="card-title">Aut Luia</h3>
+                    <p class="card-text">Lorem, deren, trataro, filede, nerada</p>
+                    <b><h3 class="card-title text-danger">$14.95</h3></b>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="./menu/menu-item-3.png" class="card-img-top menu-img" alt="...">
+                  <div class="card-body cb-1">
+                      <h3 class="card-title">Est Eligendi</h3>
+                      <p class="card-text">Lorem, deren, trataro, filede, nerada</p>
+                      <b><h3 class="card-title text-danger">$8.95</h3></b>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="./menu/menu-item-4.png" class="card-img-top menu-img" alt="...">
+                  <div class="card-body cb-1">
+                      <h3 class="card-title">Eos Luibusdam</h3>
+                      <p class="card-text">Lorem, deren, trataro, filede, nerada</p>
+                      <b><h3 class="card-title text-danger">$12.95</h3></b>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="./menu/menu-item-5.png" class="card-img-top menu-img" alt="...">
+                  <div class="card-body cb-1">
+                    <h3 class="card-title">Eos Luibusdam</h3>
+                    <p class="card-text">Lorem, deren, trataro, filede, nerada</p>
+                    <b><h3 class="card-title text-danger">$12.95</h3></b>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="./menu/menu-item-6.png" class="card-img-top menu-img" alt="...">
+                  <div class="card-body cb-1">
+                    <h3 class="card-title">Laboriosam Direva</h3>
+                    <p class="card-text">Lorem, deren, trataro, filede, nerada</p>
+                    <b><h3 class="card-title text-danger">$9.95</h3></b>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Menu section ended -->
+
+<!-- review section -->
+    <div class="slider-area" id="reviews">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="text-center feedback-text">
+                    <p class="light-gray">REVIEWS</p>
+                    <h1 class="amatic-sc-regular">What Are They <span class="red-font">Saying About Us</span></h1>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <section class="feedback-start-box container-fluid">
+                        <div class="d-flex justify-content-evenly flex-wrap mt-5">
+                            <div>
+                                <p><span class="red-font">"</span>[Yummy Restaurant] is your ticket to a culinary adventure.<br> Experience exceptional flavors and hospitality at this hidden gem!
+                                <span class="red-font">"</span></p>
+                                <h1>Nikson Gill</h1>
+                                <img class="mb-5 star" src="./Assets/Images/Stars.png" alt="">
+                            </div>
+                            <div class="feedback-image">
+                                <img src="./testimonials/testimonials-1.jpg" alt="">
+                            </div>
+                        </div>
+                    </section>
+                  </div>
+
+                  <div class="carousel-item active">
+                    <section class="feedback-start-box container-fluid">
+                        <div class="d-flex justify-content-evenly flex-wrap mt-5">
+                            <div>
+                                <p><span class="red-font">"</span>Taste the artistry at [Yummy Restaurant], where classic<br> meets creative. Impeccable service and unforgettable flavors<br> make it a must-try spot!
+                                <span class="red-font">"</span></p>
+                                <h1>Joneta Patras</h1>
+                                <img class="mb-5 star" src="./Assets/Images/Stars.png" alt="">
+                            </div>
+                            <div class="feedback-image">
+                                <img src="./testimonials/testimonials-2.jpg" alt="">
+                            </div>
+                        </div>
+                    </section>
+                  </div>
+
+                  <div class="carousel-item active">
+                    <section class="feedback-start-box container-fluid">
+                        <div class="d-flex justify-content-evenly flex-wrap mt-5">
+                            <div>
+                                <p><span class="red-font">"</span>Discover a culinary oasis at [Yummy Restaurant], where every dish<br> is an expertly crafted delight. Friendly service<br> and a welcoming atmosphere await!
+                                <span class="red-font">"</span></p>
+                                <h1>Sara Wilsson</h1>
+                                <img class="mb-5 star" src="./Assets/Images/Stars.png" alt="">
+                            </div>
+                            <div class="feedback-image">
+                                <img src="./testimonials/testimonials-3.jpg" alt="">
+                            </div>
+                        </div>
+                    </section>
+                  </div>
+
+                  <div class="carousel-item active">
+                    <section class="feedback-start-box container-fluid">
+                        <div class="d-flex justify-content-evenly flex-wrap mt-5">
+                            <div>
+                                <p><span class="red-font">"</span>[Yummy Restaurant] offers an array of palate-pleasing dishes,<br> perfect for any occasion. With attentive service and a delightful<br> ambiance, it's a must-visit!
+                                  <span class="red-font">"</span></p>
+                                <h1>Peter De'souza</h1>
+                                <p class="light-gray">Desginer</p>
+                                <img class="mb-5 star" src="./Assets/Images/Stars.png" alt="">
+                            </div>
+                            <div class="feedback-image">
+                                <img src="./testimonials/testimonials-4.jpg" alt="">
+                            </div>
+                        </div>
+                    </section>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+
+    <!-- review section end -->
+
+      <!-- events section -->
+
+      <div class="container my-5" id="events">
+        <div class="header-text mb-4">
+            <p class="text-center light-gray">Events</p>
+            <h2 class="text-center amatic-sc-regular">Share <span class="red-font">Your Moments</span> In Our Restaurant</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
           <!-- first card -->
           <div class="box">
-              <div class="col shadow">
+              <div class="col">
                   <div class="card h-100">
-                    <img src="./chefs/chefs-1.jpg" class="card-img-top" alt="...">
+                    <img src="./Events/events-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Muhammad Izhan</h5>
-                      <p class="card-text">A professional graphics designer and web developer.</p>
+                      <h5 class="card-title">Birthday Parties</h5>
+                      <h5 class="card-title">$500</h5>
+                      <p class="card-text">We provide Cheese & Cracker Platters, Fruit & Veggie Platters, Slider Style mini Burgers, Pretzels, BBQ, Chicken Karahi, Tandori Nan, Orange Razzletini, Pineapple & Lime Mocktail.</p>
                     </div>
                   </div>
                 </div>
           </div>
           <!-- second card -->
           <div class="box">
-              <div class="col shadow">
+              <div class="col">
                   <div class="card h-100">
-                    <img src="./chefs/chefs-2.jpg" class="card-img-top" alt="...">
+                    <img src="./Events/events-2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Syed Umer Shah</h5>
-                      <p class="card-text">A professional graphics designer and web developer pursuing BSCS (BS in Computer Science) from SMI University.</p>
+                      <h5 class="card-title">Private Parties</h5>
+                      <h5 class="card-title">$300</h5>
+                      <p class="card-text">We provide Cheese & Cracker Platters, Slider Style mini Burgers, BBQ, Tandori Nan, Orange Razzletini.</p>
                     </div>
                   </div>
                 </div>
           </div>
           <!-- third card -->
           <div class="box">
-              <div class="col shadow">
+              <div class="col">
                 <div class="card h-100">
-                  <img src="./chefs/chefs-3.jpg" class="card-img-top" alt="...">
+                  <img src="./Events/events-3.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Haseeb Ahmed</h5>
-                    <p class="card-text">A professional graphics designer and web developer pursuing undergraduate in B.E Industrial Electronics from IIEE.</p>
+                    <h5 class="card-title">Custom Parties</h5>
+                    <h5 class="card-title">$100</h5>
+                    <p class="card-text">We provide Slider Style mini Burgers, Chicken Karahi, Tandori Nan, Pineapple & Lime Mocktail.</p>
                   </div>
                 </div>
               </div>
           </div>
         </div>
-    </div>
+      </div>
+
+      <!-- events section end -->
+
+    <!-- Syed Umer Shah -->
+    <!-- Members -->
+      <div class="container my-5 Members" id="Members">
+        <div class="text-center feedback-text">
+          <p class="light-gray">Members</p>
+          <h1 class="amatic-sc-regular">Our <span class="red-font">Proffesional</span> Members</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- first card -->
+            <div class="box">
+                <div class="col shadow">
+                    <div class="card h-100">
+                      <img src="./chefs/chefs-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Muhammad Izhan</h5>
+                        <p class="card-text">Complete CIT from BBSHRRDB & Computer Application and office professional form NAVTTC.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- second card -->
+            <div class="box">
+                <div class="col shadow">
+                    <div class="card h-100">
+                      <img src="./chefs/chefs-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Syed Umer Shah</h5>
+                        <p class="card-text">A professional graphics designer and web developer pursuing BSCS (BS in Computer Science) from SMI University.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <!-- third card -->
+            <div class="box">
+                <div class="col shadow">
+                  <div class="card h-100">
+                    <img src="./chefs/chefs-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Haseeb Ahmed</h5>
+                      <p class="card-text">A professional graphics designer and web developer pursuing undergraduate in B.E Industrial Electronics from IIEE.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
 
     <!-- BOOK A TABLE -->
     <!----------------------- Main Container -------------------------->
     <div class="container d-flex justify-content-center align-items-center min-vh-100" id="BookTalbe">
       <!----------------------- Login Container -------------------------->
       <div class="row border rounded-5 p-3 bg-white shadow box-area">
-        <div class="header-text mb-4">
-          <p class="text-center">BOOK A TABLE</p>
-          <h2 class="text-center">Book <span class="text-danger">Your Stay</span> With Us</h2>
+        <div class="text-center feedback-text">
+          <p class="light-gray">BOOK A TABLE</p>
+          <h1 class="amatic-sc-regular">Book <span class="red-font">Your Stay</span> With Us</h1>
         </div>
           <!--------------------------- Left Box ----------------------------->
           <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box"
@@ -293,9 +517,9 @@
 
   <!-- Gallery -->
   <section class="gallery min-vh-100" id="gallery">
-    <div class="header-text mb-4">
-      <p class="text-center">GALLERY</p>
-      <h2 class="text-center">Check <span class="text-danger">Our Gallery</span></h2>
+    <div class="text-center feedback-text">
+      <p class="light-gray">Gallery</p>
+      <h1 class="amatic-sc-regular">Check <span class="red-font">Our Gallery</span></h1>
     </div>
     <div class="container-lg">
       <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
@@ -332,9 +556,9 @@
     <div class="container d-flex justify-content-center align-items-center min-vh-100 my-5" id="contact">
       <!----------------------- Login Container -------------------------->
          <div class="rounded-5 p-3 bg-white shadow box-area">
-          <div class="header-text mb-4">
-              <p class="text-center">Contact</p>
-              <h2 class="text-center">Need Help? <span class="text-danger">Contact Us</span></h2>
+          <div class="text-center feedback-text">
+            <p class="light-gray">CONTACT</p>
+            <h1 class="amatic-sc-regular">Need Help? <span class="red-font">Contact Us</span></h1>
           </div>
           <div class="col-md-12 col-sm-12 col-xs-12">
               <div class="map-area shadow">
@@ -414,17 +638,17 @@
           <div class="row">
               <div class="col-lg-3 col-md-6 col-sm-12">
                   <h5>Address</h5>
-                  <p>A108 Adam Street <br>
-                    New York, NY 535022 - US</p>
+                  <p>Idarah Noor e Haq, 503, Bano Qabil 2.o, Shikarpur Colony<br>
+                     Muslimabad, Karachi, Pakistan</p>
               </div>
               <div class="col-lg-3 col-md-6 col-sm-12">
                   <h5>Reservations</h5>
-                  <p><b>Phone:</b> +1 5589 55488 55 <br>
-                    <b>Email:</b> info@example.com</p>
+                  <p><b>Phone:</b> +92 344 243 7207 <br>
+                    <b>Email:</b> yummyoorestaurant<br>@gmail.com</p>
               </div>
               <div class="col-lg-3 col-md-6 col-sm-12">
                   <h5>Opening Hours</h5>
-                  <p><b>Mon-Sat:</b> 11AM - 23PM <br>
+                  <p><b>Mon-Sat:</b> 10AM - 12PM <br>
                     <b>Sunday:</b> Closed</p>
               </div>
               <div class="col-lg-3 col-md-6 col-sm-12">
@@ -438,13 +662,12 @@
               </div>
                   <!-- Copyright -->
               <div class="copyright">
-                <p>© Copyright Code. All Rights Reserved</p>
-                <p>Designed by Star Coder</p>
+                <p>© Copyright Code Genius. All Rights Reserved</p>
+                <p>Designed & Developed by Code Genius.</p>
               </div>
           </div>
       </div>
     </footer>
-    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

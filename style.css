@@ -8,7 +8,7 @@
 } */
 
 /* home */
-.slide{
+.home{
     background: linear-gradient(#0000003e,#00000023), url(./1.jpg);
 }
 /* .bg-cover{
@@ -212,6 +212,127 @@ img{
   font-size: 20px;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.6);
+}
+
+
+/* Izhan work */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body p {
+  font-size: 18px;
+}
+
+:root {
+  --text-font: #ce1212;
+  --gray-light: #37373f;
+}
+
+/* Google font classes */
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Google font classes */
+
+
+.Lunch-font a {
+  font-size: 22px;
+  color: gray;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.red-font {
+  color: #ce1212;
+}
+
+.light-gray {
+  color: #989898;
+  font-size: 20px;
+}
+
+.starter-font {
+  font-size: 40px;
+  color: var(--text-font);
+  font-weight: 600;
+}
+/* events section */
+.event-section {
+  margin-top: 100px;
+}
+
+.event-box {
+  width: 421px;
+  height: 558px;
+}
+
+.event-box img {
+  width: 350px;
+  height: 558px;
+}
+
+.event-img-text {
+  position: absolute;
+  z-index: 1;
+  margin-top: -320px;
+}
+
+
+/* menu */
+
+.cb-1{
+  text-align: center;
+  justify-content: center;
+}
+.menu-img{
+  width: auto;
+  height: auto;
+}
+/* review section */
+.feedback-start-box {
+  width: 100%;
+  height: 500%;
+  background-color: #eeeeee;
+}
+
+.feedback-text  {
+  padding-top: 70px;
+}
+
+.feedback-image img {
+  border-radius: 200px;
+  border: 5px solid #fff;
+  width: 200px;
+  height: 200px;
+}
+.slider-area{
+  background: #eeeeee;
+}
+.star{
+  width: 100px;
+  height: 15px;
 }
 
 
